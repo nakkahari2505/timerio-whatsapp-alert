@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: timerio-whatsapp-alert
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python timerio_alert.py"
