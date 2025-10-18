@@ -6,7 +6,7 @@ import os
 # === WhatsApp API Setup ===
 ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
 PHONE_NUMBER_ID = os.getenv("PHONE_NUMBER_ID")
-RECIPIENT_PHONE = os.getenv("RECIPIENT_PHONE")
+RECIPIENT_PHONE = os.getenv("RECIPIENT_NUMBER")
 
 # === Read data ===
 df = pd.read_excel("Sale_Oct.xlsx")
